@@ -179,7 +179,7 @@ var BTCQuote = function () {
 				'<div class="btc-box" style="height: 71px; width: 212px; font-size: 12px; line-height: 1;">',
 					'<div style="position: absolute; z-index: 2; background-image: url(' + BITCOIN_LOGO + '); width: 56px; height: 56px; top: 8px; left: 10px;"></div>',
 					'<div id="btc-last-wrapper" style="position: relative; z-index: 2; font-weight: bold; float: right; margin: 6px 10px 0px 0px; height: 32px; width: 140px; text-align: right; font-size: 30px;">',
-						'<span style="position: relative; top: 2px; font-size: 28px;">$</span><span class="odometer" id="btc-last-field" style="height: 32px;"></span>',
+						'<span style="position: relative; top: 2px; font-size: 28px;">$</span><span class="odometer" id="btc-last-field"></span>',
 					'</div>',
 					'<span class="btc-hides" style="float: right; margin-right: 10px; height: 14px; margin-top: 2px;">',
 						'<span style="font-size: 10px; color: #999;">Bid: ',
