@@ -8,10 +8,6 @@ body {
   font-weight:300;
 }
 
-a {
-  color: #08c;
-}
-
 a:hover {
   text-decoration: underline;
   color: #004f77;
@@ -36,10 +32,10 @@ img.fork-on-github {
 }
 
 pre {
-  text-align: left; 
-  max-width: 700px; 
-  margin: 0 auto; 
-  clear: both; 
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+  clear: both;
   padding: 0px;
   position: relative;
 }
@@ -59,11 +55,11 @@ pre code {
   padding: 2px 6px;
   border-radius: 4px;
   color: #333;
-  -webkit-user-select: none; 
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none;  
+  user-select: none;
   text-align: center;
   cursor: pointer;
 }
@@ -74,11 +70,12 @@ pre code {
 }
 
 #btc-quote-row {
+  padding-top: 200px;
   height: 74px;
+  text-align: center;
 }
 
 #btc-quote {
-  top: -35px;
   position: relative;
 }
 
@@ -92,20 +89,19 @@ header {
   position: relative;
   min-height: 150px;
   width: 100%;
-  color: white;
-  background-color: #0380FD;
+  color: black;
+  background-color: #9ACCFE;
+  text-align: center;
 }
 
-#embed-title {
-  color: white;
-}
+
 
 .header-title {
   background-color: #0B76D9;
 }
 
 .header-content {
-  background-color: #0380FD;
+  background-color: #9ACCFE;
 }
 
 .header-links {
@@ -118,7 +114,6 @@ header {
   display: inline-block;
   margin: 0 15px;
   text-decoration: none;
-  color: #fff;
 }
 
 .header-links a:hover {
@@ -128,7 +123,6 @@ header {
 
 .header-links a.selected {
   text-decoration: underline;
-  /* color: #fff; */
   color: #feffff;
   cursor: default;
 }
@@ -154,7 +148,6 @@ header {
 }
 
 #title-small {
-  color: #fff;
   position: absolute;
   left: 150px;
   top: 15px;
@@ -179,9 +172,6 @@ header {
   font-size: 18px;
 }
 
-#page-links a {
-  color: #fff;
-}
 
 
 /* Social Buttons
@@ -319,7 +309,6 @@ footer {
   margin: 45px auto -15px auto;
   font-size: 72px;
   text-align: center;
-  color: white;
 }
 
 #home-subtitle {
@@ -327,7 +316,6 @@ footer {
   text-align: center;
   margin-bottom: 60px;
   font-weight: 100;
-  color: white;
 }
 
 #home-download-on-github {
@@ -373,7 +361,6 @@ footer {
   float: right;
   margin-top: 5px;
   font-size: 17px;
-  color: #fff;
 }
 
 .bottom-title {
